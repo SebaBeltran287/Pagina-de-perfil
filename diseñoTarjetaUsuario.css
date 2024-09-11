@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+nav ul li {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.tarjetaperfil {
+    display: flex;
+    width: 100%;
+    max-width: 2000px;
+    background-color: white;
+    border: 1px solid #e1e4e8;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.imagenperfil {
+    flex-shrink: 0;
+}
+
+.imagenperfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.perfilinfo {
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+.perfilinfo h1 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.perfilinfo p {
+    margin: 5px 0;
+    color: grey;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+.barraDerecha {
+    width: 500px;
+    padding-left: 20px;
+    border-left: 1px solid #e1e4e8;
+    margin-left: auto;
+}
+
+.barraDerecha h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.barraDerecha .solicitudes img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.barraDerecha .solicitudes .solicitud {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.barraDerecha .solicitudes .accion button {
+    background-color: #ff4081;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 20px 20px;
+}
+
+#tituloPerfil{
+    margin-right: 730px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.parrafoAbajo{
+    margin-top: 10%;
+    font-size: 20px;
+    color: black;
+}
+
+.parrafoAbajo li{
+    margin: 5px 0;
+    color: grey;
+    font-size: 18px;
+}
+
